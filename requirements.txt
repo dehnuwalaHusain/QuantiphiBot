@@ -1,0 +1,12 @@
+faiss-cpu 
+PyMuPDF 
+streamlit
+scikit-learn
+transformers
+langchain-community
+langchain-groq
+langchain-core
+numpy==1.26.4
+langchain-groq
+fastapi
+pydantic
