@@ -6,8 +6,8 @@ from memory_store import MEMORY_STORE
 app = FastAPI()
 
 class ChatRequest(BaseModel):
-    user_email
-    query
+    user_email: str
+    query: str
 
 @app.post("/chat")
 def chat(payload: ChatRequest):
